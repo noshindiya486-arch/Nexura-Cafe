@@ -632,3 +632,106 @@ background-color: rgb(165, 131, 86);
 .space{
     margin-left: 40%;
 }
+
+/* Responsive Images */
+img{
+    max-width:100%;
+    height:auto;
+    display:block;
+}
+
+/* Tablet */
+@media (max-width:992px){
+
+.header{
+    height:auto;
+    padding:30px 20px;
+}
+
+.header-t{
+    width:100%;
+    flex-direction:column;
+    gap:20px;
+    text-align:center;
+}
+
+.top-right ul{
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.h-body{
+    width:100%;
+    height:auto;
+    flex-direction:column;
+    align-items:center;
+    margin:40px auto;
+    gap:30px;
+}
+
+.content{
+    width:100%;
+    height:auto;
+    font-size:42px;
+    text-align:center;
+}
+
+.image,
+.image img{
+    margin:0;
+}
+
+.image2 img{
+    width:350px;
+}
+
+.card{
+    height:auto;
+    flex-wrap:wrap;
+    padding:40px 20px;
+}
+
+.one,
+.two,
+.three{
+    width:45%;
+    height:auto;
+}
+
+.main{
+    height:auto;
+    padding:50px 20px;
+}
+
+.intro{
+    margin:0;
+}
+
+.owner-details{
+    height:auto;
+    flex-direction:column;
+    padding:40px 20px;
+}
+
+.od-left,
+.od-right{
+    width:100%;
+}
+
+.od-right img{
+    width:100%;
+}
+
+.ones{
+    height:auto;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:50px;
+    margin:0;
+    padding:40px 20px;
+}
+
+footer{
+    height:auto;
+}
+}
