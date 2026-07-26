@@ -513,6 +513,122 @@ background-color: rgb(165, 131, 86);
     margin-left: 50%;
     font-size: 35px;
 }
+@media (max-width:768px){
+
+.header{
+    padding:20px;
+}
+
+.top-left{
+    font-size:30px;
+}
+
+.top-right ul{
+    flex-direction:column;
+    gap:12px;
+}
+
+.content{
+    font-size:32px;
+}
+
+.image2 img{
+    width:250px;
+}
+
+.type{
+    font-size:22px;
+    padding:0 20px;
+}
+
+.card{
+    flex-direction:column;
+}
+
+.one,
+.two,
+.three{
+    width:100%;
+}
+
+.main{
+    font-size:18px;
+}
+
+.owner-details{
+    gap:20px;
+}
+
+.odl-top{
+    background-size:cover;
+    background-position:center;
+}
+
+.od-right img{
+    width:100%;
+}
+
+.fah{
+    flex-direction:column;
+    align-items:center;
+}
+
+.first,
+.fifth,
+.eleven{
+    margin-top:20px;
+    text-align:center;
+}
+
+.abtmain,
+.down,
+.wrtmain,
+.nexmain,
+.award,
+.othr,
+.others,
+.mide{
+    flex-direction:column;
+    gap:30px;
+    margin-left:0;
+    width:100%;
+    align-items:center;
+}
+
+.lee1,
+.lee2,
+.lee3,
+.lee4{
+    margin-left:0;
+    text-align:center;
+    width:100%;
+}
+
+.space,
+.sss{
+    margin-left:0;
+    text-align:center;
+}
+
+.wrtimg img,
+.nex2 img{
+    width:100%;
+}
+
+.mainwr,
+.neximg,
+.snacks,
+.middl,
+.othrs{
+    height:auto;
+    padding-bottom:50px;
+}
+
+.food{
+    margin-left:0;
+    text-align:center;
+}
+}
 .space{
     margin-left: 40%;
 }
